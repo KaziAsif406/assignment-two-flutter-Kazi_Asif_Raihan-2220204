@@ -10,12 +10,12 @@ class ProfileHeader extends StatelessWidget {
         const SizedBox(height: 20),
         const Text(
           'User Profile',
-          style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+          style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
         ),
         const SizedBox(height: 24),
         Container(
-          width: 120,
-          height: 120,
+          width: 90,
+          height: 90,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             gradient: const LinearGradient(
@@ -34,7 +34,7 @@ class ProfileHeader extends StatelessWidget {
               'SN',
               style: TextStyle(
                 color: Colors.white,
-                fontSize: 48,
+                fontSize: 36,
                 fontWeight: FontWeight.bold,
               ),
             ),

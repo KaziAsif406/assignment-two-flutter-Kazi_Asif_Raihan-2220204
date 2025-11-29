@@ -52,7 +52,7 @@ class _ProfilePageState extends State<ProfilePage> {
                         ),
                         SizedBox(height: 4),
                         Text(
-                          'STUDENT NAME',
+                          'Kazi Asif Raihan',
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 16,
@@ -87,25 +87,19 @@ class _ProfilePageState extends State<ProfilePage> {
               const Center(child: ProfileHeader()),
 
               // Name Tile
-              const ProfileInfoTile(
-                label: 'Name',
-                value: 'STUDENT NAME (YOUR NAME HERE)',
-              ),
+              const ProfileInfoTile(label: 'Name', value: 'Kazi Asif Raihan'),
 
-              const SizedBox(height: 12),
+              const SizedBox(height: 8),
 
               // Student ID Tile
-              const ProfileInfoTile(
-                label: 'Student ID',
-                value: 'S12345 (YOUR ID HERE)',
-              ),
+              const ProfileInfoTile(label: 'Student ID', value: '2220204'),
 
-              const SizedBox(height: 12),
+              const SizedBox(height: 8),
 
               // Email Tile
               const ProfileInfoTile(
                 label: 'Email',
-                value: 'student.name@iub.edu (YOUR IUB EMAIL HERE)',
+                value: '2220204@iub.edu.bd',
               ),
 
               const SizedBox(height: 12),
@@ -115,7 +109,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 label: 'Bio / Story',
                 value:
                     '"I\'m currently focusing on my final year, balancing studies with building side projects. I believe financial health is key to academic success. I love hiking on weekends and planning my next big travel adventure!"\n\n(Note: Students should replace the text above with their own description here!)',
-                isHighlighted: false,
+                isHighlighted: true,
               ),
 
               const SizedBox(height: 80),
