@@ -75,7 +75,7 @@ class _ReportsPageState extends State<ReportsPage> {
                   const CircleAvatar(
                     radius: 22,
                     child: Text(
-                      'S',
+                      'KA',
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                   ),

@@ -37,7 +37,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   const CircleAvatar(
                     radius: 22,
                     child: Text(
-                      'S',
+                      'KA',
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                   ),
@@ -108,7 +108,7 @@ class _ProfilePageState extends State<ProfilePage> {
               const ProfileInfoTile(
                 label: 'Bio / Story',
                 value:
-                    '"I\'m currently focusing on my final year, balancing studies with building side projects. I believe financial health is key to academic success. I love hiking on weekends and planning my next big travel adventure!"\n\n(Note: Students should replace the text above with their own description here!)',
+                    '"I\'m an undergraduate Computer Science and Engineering student in my final semester. Currently, I\'m focused on completing my graduation while actively preparing for career opportunities. I\'m eager to apply my skills in a real-world environment and am looking forward to securing an internship or entry-level role where I can learn & grow. I like to travel and do landscape photography as a hobby."',
                 isHighlighted: true,
               ),
 

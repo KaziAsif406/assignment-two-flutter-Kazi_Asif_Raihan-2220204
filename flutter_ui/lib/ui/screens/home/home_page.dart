@@ -76,7 +76,7 @@ class _HomePageState extends State<HomePage> {
                   const CircleAvatar(
                     radius: 22,
                     child: Text(
-                      'A',
+                      'KA',
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                   ),

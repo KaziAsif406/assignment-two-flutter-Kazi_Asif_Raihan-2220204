@@ -31,7 +31,7 @@ class ProfileHeader extends StatelessWidget {
           ),
           child: const Center(
             child: Text(
-              'SN',
+              'KA',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 36,
