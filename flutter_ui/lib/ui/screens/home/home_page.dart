@@ -5,7 +5,9 @@ import 'widgets/transaction_list_item.dart';
 import '../../widgets/bottom_nav.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  final bool showBottomNav;
+
+  const HomePage({Key? key, this.showBottomNav = true}) : super(key: key);
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -178,10 +180,12 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
       ),
-      bottomNavigationBar: BottomNav(
-        selectedIndex: _selectedIndex,
-        onItemTapped: _onItemTapped,
-      ),
+      bottomNavigationBar: widget.showBottomNav
+          ? BottomNav(
+              selectedIndex: _selectedIndex,
+              onItemTapped: _onItemTapped,
+            )
+          : null,
     );
   }
 }

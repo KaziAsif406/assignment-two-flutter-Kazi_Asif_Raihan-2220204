@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'ui/screens/home/home_page.dart';
+import 'app_shell.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
         scaffoldBackgroundColor: const Color(0xFFF7F8FB),
       ),
-      home: const HomePage(),
+      home: const AppShell(),
     );
   }
 }
