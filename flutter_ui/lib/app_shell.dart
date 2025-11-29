@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'ui/screens/home/home_page.dart';
 import 'ui/screens/reports/reports_page.dart';
+import 'ui/screens/profile/profile_page.dart';
 import 'ui/widgets/bottom_nav.dart';
 
 class AppShell extends StatefulWidget {
@@ -52,6 +53,7 @@ class _AppShellState extends State<AppShell> {
         children: const [
           HomePage(showBottomNav: false),
           ReportsPage(showBottomNav: false),
+          ProfilePage(showBottomNav: false),
         ],
       ),
       bottomNavigationBar: BottomNav(

@@ -21,7 +21,6 @@ class BottomNav extends StatelessWidget {
       items: const [
         BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: 'Home'),
         BottomNavigationBarItem(icon: Icon(Icons.bar_chart), label: 'Reports'),
-        BottomNavigationBarItem(icon: Icon(Icons.credit_card), label: 'Cards'),
         BottomNavigationBarItem(
           icon: Icon(Icons.person_outline),
           label: 'Profile',

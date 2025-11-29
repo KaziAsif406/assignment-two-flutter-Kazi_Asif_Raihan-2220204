@@ -21,7 +21,7 @@ class _ReportsPageState extends State<ReportsPage> {
       'amount': '\$450.00',
       'percentage': '35%',
       'color': Colors.red,
-      'progress': 0.35,
+      'progress': 0.45,
     },
     {
       'category': 'Shopping',
@@ -90,7 +90,7 @@ class _ReportsPageState extends State<ReportsPage> {
                         ),
                         SizedBox(height: 4),
                         Text(
-                          'STUDENT NAME',
+                          'Kazi Asif Raihan',
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 16,
